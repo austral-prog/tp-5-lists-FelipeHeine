@@ -1,4 +1,6 @@
 # Ejercicio 11: Comparar tercer elemento de dos listas
+from operator import truediv
+
 
 def check_lists(lista1, lista2):
     """
@@ -12,4 +14,10 @@ def check_lists(lista1, lista2):
     Returns:
         True si ambas listas tienen el mismo tercer elemento, False en caso contrario
     """
-    pass  # Reemplazar con tu implementación
+    if len(lista1) >= 3 and len(lista2) >= 3:
+        if lista1[2] == lista2[2]:
+            return True
+        else:
+            return False
+    else:
+        return False
