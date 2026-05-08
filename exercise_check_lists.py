@@ -1,5 +1,5 @@
 # Ejercicio 11: Comparar tercer elemento de dos listas
-from operator import truediv
+
 
 
 def check_lists(lista1, lista2):

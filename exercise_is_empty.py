@@ -1,5 +1,4 @@
-# Ejercicio 9: Verificar si una lista está vacía
-from jupyter_lsp.specs import JediLanguageServer
+
 
 
 def is_empty(lista):
